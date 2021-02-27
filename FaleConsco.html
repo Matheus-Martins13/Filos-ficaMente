@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+</head>
+
+
+<body>
+
+    <div id="area-cabecalho">
+		
+		<div id="area-logo">
+			<a href="index.html">  <h1>Filosófica<span class="branco">Mente</span></h1></a>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home </a>
+			<a href="filósofos.html">Filósofos </a>
+			<a href="obras.html.html">Obras </a>
+			<a href="loja.html.html">Loja </a>
+			<a href="FaleConsco.html">Fale conosco</a>
+		</div>
+
+	 </div>
+
+       <div id="tela-login">
+
+            <form name="FaleConosco" action=" " method="POST">
+
+                <h2 class="form" id="position">Deixe seu feedback!</h2>
+
+                <strong>Informe seu nome:</strong>  <input type="text" name="text_nome" id="text_nome value="digite seu nome aqui" class="form"> <br> 
+
+                <strong>Informe seu email:</strong> <input type="text" name="text_email" id="text_email" class="form"> <br>
+
+                <div id="position">
+                    <strong>Escreva a sua mensagem:</strong> <br> 
+                </div>
+                <textarea name="feedback" id="feedback" cols="40" rows="2" class="form" id="right"></textarea> <br>
+                 <a href="index.html"><input type="button" value="Enviar" onclick="registrar()" class="form" ></a>
+            </form> 
+         </div>
+            
+
+    <script language="javascript">
+            var nome
+            var email  
+
+        function registrar(){
+            nome = document.FaleConosco.text_nome.value
+            email = document.FaleConosco.text_email.value
+
+            window.alert(`Sua mensagem foi enviada. Agradecemos o contado, ${nome}! Enviaremos um e-mail de resposta em até 5 dias.`)
+        }
+
+    </script>
+
+</body>
+
+</html>

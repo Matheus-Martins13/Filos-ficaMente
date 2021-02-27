@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
+    #area-cabecalho {
+        width: 910px;
+        background-color:#f1f13283;
+        padding: 15px;
+        text-align: center;	
+    }
+    
+    #area-logo, #area-menu {
+    
+        padding: 10px;
+        text-align: left;
+    }
+    
+
+    body{
+        font-size: 1em;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        background: #d2d2c1 url('img/fundo.png');
+    }
+
+    #tela-login{
+        background-color:#f5f54883;
+        text-align: center;
+        width: 50%;
+        align-items: center;
+        margin: 40px;
+        border: 1px solid rgb(124, 124, 30);
+    }
+
+    #position{
+        margin-right: 148px;
+    }
+
+    #right{
+        width: 400px;
+        height: 24px;
+        margin-right: 20px;
+    }
+
+    .form{
+        margin: 10px;
+    }
+
+
+    h2 {
+        color: black;
+    }
+    
+    h3 {
+        color: #222222;
+        background: #f0f04d83;
+        padding: 2px;
+    }
+
+    .branco{
+        color: #3a170e83;
+    }
+
+
+    a {
+        text-decoration: none;	
+    }
+    
+    a:link, a:visited {
+        color: #f1f13283;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    #area-cabecalho a:link, #area-cabecalho a:visited {
+        color: #000;
+        padding: 8px 12px;
+    }
+    
+    #area-cabecalho a:hover {
+      text-decoration: none;
+    }
