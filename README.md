@@ -1,2 +1,2 @@
-# FilosóficaMente
+# FilosoficaMente
  Site experimental sobre filosofia.
